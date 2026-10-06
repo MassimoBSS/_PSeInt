@@ -27,7 +27,7 @@ Algoritmo SistemaInventarioVentas
         Escribir "2. Registrar una venta"
         Escribir "3. Ver ingresos totales"
         Escribir "4. Salir"
-        Escribir "Seleccione una opci髇 (1-4): "
+        Escribir "Seleccione una opci贸n (1-4): "
         Leer opcion
         
         Segun opcion Hacer
@@ -41,7 +41,7 @@ Algoritmo SistemaInventarioVentas
                 Esperar Tecla
             2:
                 Escribir "--- REGISTRAR VENTA ---"
-                Escribir "Ingrese el c骴igo del producto: "
+                Escribir "Ingrese el c贸digo del producto: "
                 Leer codigoBuscar
                 
                 encontrado <- Falso
@@ -66,7 +66,7 @@ Algoritmo SistemaInventarioVentas
                 FinPara
                 
                 Si No encontrado Entonces
-                    Escribir "C骴igo de producto no encontrado."
+                    Escribir "C贸digo de producto no encontrado."
                 FinSi
                 
                 Escribir "Presione una tecla para continuar..."
@@ -80,7 +80,7 @@ Algoritmo SistemaInventarioVentas
                 Escribir "Saliendo del sistema..."
                 continuar <- "n"
             De Otro Modo:
-                Escribir "Opci髇 no v醠ida."
+                Escribir "Opci贸n no v谩lida."
                 Esperar Tecla
         FinSegun
     Hasta Que continuar = "n"
